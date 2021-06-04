@@ -2,6 +2,7 @@
   padding: 50px;
   background-color: #eeeeee;
   text-align: center;
+  white-space: pre-line;
 }
 #root img {
   margin: 20px;
