@@ -2,7 +2,7 @@ const app = document.getElementById('root');
 
 var request = new XMLHttpRequest()
 
-request.open('GET', 'http://cfc99fb76966.ngrok.io/msg', true)
+request.open('GET', 'http://5eaa37093662.ngrok.io/msg', true)
 
 request.onload = function () {
   const text = document.getElementById('your-text');
