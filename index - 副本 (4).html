@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=0.1" />
+    <title>Tony Dai App</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <script src="index.js"></script>
+    <div id="root">
+      <h2 id="your-text" white-space:"pre">un-initialized</h2>
+      <img
+        style="-webkit-user-select: none; margin: auto"
+        src="http://5eaa37093662.ngrok.io/pic"
+        width="1000"
+        height="750"
+      />
+    </div>
+    <script>
+      function autoRefresh() {
+          window.location = window.location.href;
+      }
+      setInterval('autoRefresh()', 60000);
+    </script>
+  </body>
+
+  <body style="margin: 0px; background: #eeeeee">
+</html>
+
+
